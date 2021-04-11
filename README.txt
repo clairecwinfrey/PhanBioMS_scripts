@@ -1,6 +1,5 @@
 Biogeography of Phanaeus gut microbiome Project Scripts Overview
-This is a description of how each file in scripts folder was used in our data 
-analysis.
+This is a description of how each file in scripts folder was used in our data analysis.
 
 qiime_allsamples.sh
 --This script was used in the qiime2 platform (version 2020.2). Specifically, it is the code for importing raw sequences, primer removal, dada2, getting rarefaction curves (just to try different depths NOT version used in paper), training the feature classifier, assigning taxonomy (SILVA 128 database), performing ASV fragment insertion on the SILVA 128 reference tree, filtering tree and ASV tables, and exporting tree and ASV tables.
